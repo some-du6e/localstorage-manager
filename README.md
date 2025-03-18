@@ -1,0 +1,2 @@
+# LocalStorage Manager
+## Swaps localstorages
