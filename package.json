@@ -1,0 +1,16 @@
+{
+  "name": "localstorage-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "chmod +x ./build.sh && ./build.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bookmarklet": "^3.0.0",
+    "lebronjamesiscute": "^694.2.0"
+  }
+}
