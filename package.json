@@ -12,5 +12,12 @@
   "dependencies": {
     "bookmarklet": "^3.0.0",
     "lebronjamesiscute": "^694.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^8.57.1",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "prettier-eslint": "^16.3.0"
   }
 }

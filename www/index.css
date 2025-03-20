@@ -14,9 +14,11 @@ div {
   display: inline-block;
   padding: 0.5em 1em;
   color: #fff;
-  background: #50dcf3;
+  background: black;
   border-radius: 4px;
   text-decoration: none;
+margin: 0 auto;
+text-align: center;
 }
 a {
   color: #50dcf3;

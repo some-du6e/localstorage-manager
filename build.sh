@@ -6,7 +6,7 @@ read -p "do you want a http server to easily copy the bookmarklet?: " answer
 if [[ "$answer" =~ ^[Yy]$ ]]; then
     echo "Generating bookmarklet..."
     # Capture the bookmarklet output
-    BOOKMARKLET=$(bookmarklet -d ./bookmarklet.js)
+    BOOKMARKLET=$(bookmarklet -d ./src/bookmarklet.js)
     
     # Write the bookmarklet output to index.html
     echo "$BOOKMARKLET" > index.html
@@ -18,5 +18,8 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
     # Start a simple HTTP server
     python3 -m http.server
 else
-    echo "ok then"
+    echo "ok so i finna just make a html file"
+    BOOKMARKLET=$(bookmarklet -d ./src/bookmarklet.js)
+    echo "$BOOKMARKLET" > index.html
+    echo "its in file:///$(pwd)/index.html"
 fi
